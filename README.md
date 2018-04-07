@@ -1,7 +1,7 @@
 # RNIconfont
 一个演示如何在RN中使用我们自定义的ttf文件来展示icon的demo，并提供生成iconfont映射文件的脚本
 
-#ReactNative中如何使用自定义的iconfont
+# ReactNative中如何使用自定义的iconfont
 &nbsp;&nbsp;&nbsp;&nbsp;在App包的构成中图片资源是比较占大小的，所以我们可以利用Iconfont来替代原来的png或者jpg单色图标，iconfont的优点是占Size小、支持任意大小不失真、支持任意颜色设置、平台化管理icon等等。
 
 >当App项目的大小达到一定规模时，App包的Size也会随之增大，这个时候我们一般会对App包的Size做分析优化来达到减少包大小的目的，利用iconfont来替代项目中原有的png单色图标是你的一种选择。
@@ -50,6 +50,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 
  **一、从阿里iconfont平台上挑选自己想要的icon，打包下载到本地并解压，如下：**
 ![解压后](https://user-gold-cdn.xitu.io/2018/4/7/1629d7140b55ac4d?w=338&h=388&f=png&s=51946)
+
 **二、将iconfont.ttf文件copy到android项目的assets/fonts目录下**
 
 **三、自定义图标库**
